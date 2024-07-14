@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <div className='flex w-full h-[80px] relative items-center justify-between px-[3vw] border-b-[1px] border-zinc-700 bg-blend'>
+    <div className='flex w-full h-[80px] relative items-center justify-between px-[3vw] border-b-[1px] border-zinc-700 bg-zinc-900'>
       <div className='flex gap-[1vw] font-bold items-center'>
         <img className='h-[2.5vw] w-[2.5vw] max-xl:h-[8vw] max-xl:w-[8vw] hover:animate-spin ' src='/abstract.png' alt='Logo' />
         <h1 className='text-[2vw] heading-area max-xl:text-[7.5vw] tracking-tighter text-white'> <a href="/">Portfolio</a></h1>
