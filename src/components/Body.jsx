@@ -17,28 +17,28 @@ function Body() {
                 I excel at designing solutions that are both effective and suited to your individual situation.</p>
                 </div>
                 <div className="px-3 py-2">
-                    <ul className="flex gap-x-5 text-zinc-300 flex-wrap">
+                    <ul className="flex xl:gap-5 max-xl:gap-[3vw] text-base text-zinc-300 flex-wrap max-xl:text-sm ">
                         <li>
-                            <a href="https://github.com/priyanshu9899" className="flex items-center gap-2 hover:text-zinc-500">
-                                <FaGithub className="w-5 h-5 " />
+                            <a href="https://github.com/priyanshu9899" className="flex justifu-center gap-1 hover:underline hover:text-zinc-500">
+                                <FaGithub className="max-xl:w-4 xl:w-5 xl:h-5  max-xl:h-4   " />
                                 <span>Github</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/Priyans9899" className="flex items-center gap-2 hover:text-zinc-500">
-                                <BsTwitterX className="w-5 h-5" />
+                            <a href="https://twitter.com/Priyans9899" className="flex justify-center gap-1 hover:underline hover:text-zinc-500">
+                                <BsTwitterX className="max-xl:w-4 xl:w-5 xl:h-5  max-xl:h-4 "  />
                                 <span>X</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/priyanshu-kumar-sinha-17a7001b7/" className="flex items-center gap-2 hover:text-zinc-500">
-                                <FaLinkedin className="w-5 h-5" />
+                            <a href="https://www.linkedin.com/in/priyanshu-kumar-sinha-17a7001b7/" className="flex justify-center gap-1 hover:underline hover:text-zinc-500">
+                                <FaLinkedin className="max-xl:w-4 xl:w-5 xl:h-5  max-xl:h-4 "  />
                                 <span>Linkedin</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://leetcode.com/u/Priyanshu_Kumar_Sinha/" className="flex items-center gap-2 hover:text-zinc-500">
-                                <SiLeetcode className="w-5 h-5" />
+                            <a href="https://leetcode.com/u/Priyanshu_Kumar_Sinha/" className="flex gap-1 justify-center hover:underline hover:text-zinc-500">
+                                <SiLeetcode className="max-xl:w-4 xl:w-5 xl:h-5  max-xl:h-4 "  />
                                 <span>Leetcode</span>
                             </a>
                         </li>
