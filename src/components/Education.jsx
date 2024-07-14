@@ -33,11 +33,9 @@ function Education() {
       <h2 className='heading-area text-4xl'>Education</h2>
       {education.map((edu, index) => (
         <div key={index} className='flex px-4 gap-x-8  mt-7'>
-          <div>
-            <img className='w-14 h-14 max-xl:w-52 max-xl:h-12' src={edu.imgSrc} alt={edu.company} />
-            <div className='absolute left-[100px] max-xl:left-[65px]'>
-              <VerticalLine />
-            </div>
+          <div className='flex flex-col items-center'>
+            <img className='w-14 h-14 max-xl:w-52 max-xl:h-12' src={edu.imgSrc} alt={edu.company} />            
+            <div><VerticalLine /></div>
           </div>
           <div>
             <h3 className='heading-area max-xl:text-[7vw] tracking-tighter text-3xl text-cyan-400'>

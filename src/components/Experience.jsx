@@ -18,11 +18,9 @@ function Experience() {
       <h2 className='heading-area text-4xl '>Experience</h2>
       {experience.map((exp, index) => (
         <div key={index} className='flex px-4 gap-x-8  mt-7'>
-          <div>
-            <img className='w-28 h-14 max-xl:w-[520px] max-xl:h-[9vh]' src={exp.imgSrc} alt={exp.company} />
-            <div className='absolute left-[103px] max-xl:left-[70px]'>
-              <VerticalLine />
-            </div>
+          <div className='flex flex-col items-center'>
+            <img className='w-24 h-14 max-xl:w-[520px] max-xl:h-[9vh]' src={exp.imgSrc} alt={exp.company} />
+              <div><VerticalLine /></div>
           </div>
           <div>
             <h3 className='heading-area max-xl:text-[7vw] tracking-tighter text-cyan-400 text-3xl'>
