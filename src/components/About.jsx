@@ -1,8 +1,9 @@
 import { FaFilePdf } from "react-icons/fa6";
-import Navbar from './Navbar'
+import Navbar from './Navbar';
 import Experience from "./Experience";
 import Education from "./Education";
 import Footer from "./Footer";
+import LazyLoad from "react-lazyload";
 
 function About() {
   return (
@@ -29,7 +30,9 @@ function About() {
         <div className='h-[450px] max-xl:h-[500px] w-[300px] flex-col flex max-xl:order-1 '>
           <div className="relative group">
             <div className='absolute -inset-1 bg-cyan-400 rounded-[30px] max-xl:opacity-50 opacity-65 blur-xl transition duration-1000 xl:group-hover:opacity-100 group-hover:duration-300'></div>
-            <img className='h-[450px] flex items-center justify-center rounded-[30px] relative' src="/profile.jpg" alt="" />
+            <LazyLoad height={450} offset={100}>
+              <img className='h-[450px] flex items-center justify-center rounded-[30px] relative' src="/profile.jpg" alt="Profile" />
+            </LazyLoad>
           </div>
           <div className='mt-7 flex items-center justify-center p-2 mx-1 font-bold bg-slate-800 text-red-600 rounded-md'>
             <a className='flex items-center gap-2' href="https://drive.google.com/file/d/13bjMJgK1FJ27og-eEeh8Szpt2ZVtlrmk/view?usp=drive_link">View Resume <FaFilePdf /></a>
@@ -44,7 +47,7 @@ function About() {
       </div>  
       <Footer />
     </div>
-  )
+  );
 }
 
 export default About;
