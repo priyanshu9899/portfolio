@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/417dcf5e-86c3-4e89-a4ee-11b615fbadbc/deploy-status)](https://app.netlify.com/sites/priyanshusinhaportfolio/deploys)
+
 <<<<<<< HEAD
 # portfolio
 =======
