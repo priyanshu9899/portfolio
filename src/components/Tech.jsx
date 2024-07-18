@@ -48,7 +48,7 @@ function Tech() {
   return (
     <div className="relative">
       <div className="flex justify-center items-center text-wrap text-center">
-        <h1 className="heading-area text-5xl max-xl:text-5xl ">Technical Skills</h1>
+        <h1 className="heading-area text-6xl max-xl:text-5xl ">Technical Skills</h1>
       </div>
         <div className="mt-4 flex flex-col items-center">
         {techList.map((item, index) => (

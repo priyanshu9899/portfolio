@@ -11,6 +11,7 @@ import {
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
+import Dyslexify from './components/Dyslexify.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/dyslexify",
+    element: <Dyslexify />
   },
   {
     path: "*",

@@ -20,7 +20,7 @@ function About() {
             ensuring a well-rounded approach to software development.
           </p>
           <div className='tracking-tighter xl:mt-20 mt-8 rounded-[20px]'>
-            <p className='px-4 bg-blend-custom rounded-[20px] max-xl:text-[4vw] leading-relaxed text-zinc-200 text-[17px] p-3'>
+            <p className='px-4 bg-cyan-700 rounded-[20px] max-xl:text-[4vw] text-zinc-200 text-[17px] p-3'>
               If you ever spot me in the wild, don&apos;t hesitate to say hello! Let&apos;s grab a drink and geek-out over the latest advancements
               in full-stack development or discuss the new trending topic in 0-1 world. ✨
             </p>
