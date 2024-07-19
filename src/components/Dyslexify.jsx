@@ -36,12 +36,12 @@ function Dyslexify() {
             </div>
             <div className="h-[50vh] mt-8 rounded-2xl">
               <picture>
+
                 <source srcSet="/dyslexifypro.png" type="image/png" />
                 <img
                   className="rounded-2xl"
                   src="/dyslexifypro.png"
                   alt="Dyslexify AI"
-                  loading="lazy"
                 />
               </picture>
             </div>
