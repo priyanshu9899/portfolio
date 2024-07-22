@@ -10,12 +10,12 @@ function Dyslexify() {
         <div className="flex-grow flex justify-center items-center">
           <div className="max-xl:h-full max-xl:w-[90vw] h-[80vh] w-[50vw] pt-20 green-500">
             <div className="flex">
-              <h1 className="heading-area text-6xl max-xl:text-5xl flex text-wrap items-center">
+              <h1 className="heading-area text-6xl max-xl:text-6xl text-cyan-400 flex text-wrap items-center">
                 Dyslexify AI
               </h1>
               <div className="ml-auto flex items-center gap-x-6 max-xl:gap-x-1 max-xl:flex-col gap-y-2 justify-center">
                 <a
-                  className="border rounded-md text-xl flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
+                  className="border rounded-md text-xl max-xl:text-sm flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
                   href="https://github.com/your-repo-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function Dyslexify() {
                   <FaGithub />
                 </a>
                 <a
-                  className="border rounded-md text-xl flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
+                  className="border rounded-md text-xl max-xl:text-sm flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
                   href="https://your-live-link.com"
                   target="_blank"
                   rel="noopener noreferrer"

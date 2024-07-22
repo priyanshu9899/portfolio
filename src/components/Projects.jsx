@@ -41,7 +41,7 @@ function Projects() {
   return (
     <div className=' w-full h-full relative '>
         <Navbar/>
-        <div className=' px-12 pt-16 max-xl:px-[6vw]'>
+        <div className=' px-12 pt-16 max-xl:px-[6vw] '>
           <h1 className='heading-area text-4xl mb-5 text-cyan-400'>Projects</h1>
           <p className='tracking-tighter leading-tight text-base text-[18px] xl:w-3/4 text-zinc-400'>I&apos;ve worked on these few projects over the years.
              All of them are open-source, so if you see something that piques your interest, check out the code and contribute 
@@ -50,11 +50,11 @@ function Projects() {
         <div className='w-full max-xl:px-[6vw] py-12 px-12 flex max-xl:items-center max-xl:justify-center gap-12 flex-wrap'>
           {ProjectList.map((item, index) => (
             <Link key={index} to={item.link}>
-              <div className='w-[45vh] h-full rounded-3xl bg-zinc-800 flex justify-center hover:border hover:border-cyan-400'>
-                <div className='w-[9vh] rounded-l-3xl mx-1 flex items-center justify-center'>
-                  <img className='w-[8vh] h-[8vh]' src={item.imgSrc} alt="" />
+              <div className='w-[400px] max-xl:w-[360px] px-1 h-full rounded-3xl bg-zinc-800 flex justify-center hover:border hover:border-cyan-400 '>
+                <div className='w-[80px] rounded-l-3xl mx-1 flex items-center justify-center'>
+                  <img className='w-[60px] h-[60px]' src={item.imgSrc} alt="" />
                 </div>
-                <div className='w-[36vh] rounded-r-3xl'>
+                <div className='w-[360px] rounded-r-3xl'>
                   <div className='rounded-tr-3xl p-2 text-3xl tracking-tight heading-area'>{item.heading}</div>
                   <div className='rounded-br-3xl p-2 tracking-tighter text-sm text-zinc-300/70 leading-tight'>{item.description}</div>
                 </div>
@@ -72,11 +72,11 @@ function Projects() {
         </div>
         <div className=' w-full max-xl:px-[6vw] py-12  px-12 flex max-xl:items-center max-xl:justify-center gap-12 flex-wrap'>
           {PracticeProjectList.map((item, index) => (
-              <div key={index} className='w-[45vh] min-h-fit rounded-3xl bg-zinc-800 flex justify-center'>
-                <div className='  w-[9vh] rounded-l-3xl mx-1 flex items-center justify-center'>
-                  <img className='w-[8vh] h-[8vh]' src={item.imgSrc} alt="" />
+              <div key={index} className='w-[400px] max-xl:w-[360px] min-h-fit rounded-3xl bg-zinc-800 flex justify-center'>
+                <div className='  w-[80px] rounded-l-3xl mx-1 flex items-center justify-center'>
+                  <img className='w-[60px] h-[60px]' src={item.imgSrc} alt="" />
                 </div>
-                <div className=' w-[36vh] rounded-r-3xl '>
+                <div className='w-[360px] rounded-r-3xl '>
                   <div  className=' rounded-tr-3xl p-2  text-3xl tracking-tight heading-area'>{item.heading}</div>
                     <div  className=' rounded-br-3xl p-2 tracking-tighter text-sm text-zinc-300/70 leading-tight'>{item.description}</div>
                   </div>
