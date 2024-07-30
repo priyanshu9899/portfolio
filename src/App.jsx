@@ -1,6 +1,7 @@
-
+import React, {Suspense} from "react";
 import Navbar from "./components/Navbar"
-import Body from "./components/Body"
+import LoadingPage from "./components/LoadingPage";
+const Body = React.lazy(() => import('./components/Body'));
 
 function App() {
   
@@ -8,7 +9,9 @@ function App() {
   return (
     <div className="bg-blend bg-zinc-900 text-white">
       <Navbar />
-      <Body />
+      <Suspense fallback={<LoadingPage />}>
+        <Body />
+      </Suspense>
     </div>
   )
 }
