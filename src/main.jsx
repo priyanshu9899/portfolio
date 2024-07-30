@@ -1,18 +1,17 @@
-import React, { Suspense, lazy } from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import LoadingPage from './components/LoadingPage.jsx';
 
-// Lazy load your components
-const App = lazy(() => import('./App.jsx'));
-const About = lazy(() => import('./components/About.jsx'));
-const Projects = lazy(() => import('./components/Projects.jsx'));
-const Contact = lazy(() => import('./components/Contact.jsx'));
-const Dyslexify = lazy(() => import('./components/Dyslexify.jsx'));
+
+import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import Dyslexify from './components/Dyslexify.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,12 +38,14 @@ const router = createBrowserRouter([
     path: "*",
     element: <div>404 not found</div>
   }
+
+
 ]);
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Suspense fallback={<LoadingPage />}>
-      <RouterProvider router={router} />
-    </Suspense>
-  </React.StrictMode>
-);
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+)
