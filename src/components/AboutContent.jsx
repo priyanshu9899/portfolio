@@ -46,7 +46,7 @@ function AboutContent() {
           <div className="mt-7 flex items-center justify-center mx-1 font-bold bg-slate-800 text-red-600 rounded-md">
             <a
               className="flex items-center gap-2  px-14 py-2 rounded-md"
-              href="https://drive.google.com/file/d/13bjMJgK1FJ27og-eEeh8Szpt2ZVtlrmk/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1PQBmlYFsvD_tMAySzzyKfPGg1uJnBIW7/view?usp=drive_link"
             >
               View Resume <FaFilePdf />
             </a>
