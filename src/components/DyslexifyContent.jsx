@@ -16,7 +16,7 @@ function DyslexifyContent() {
               <div className="ml-auto flex items-center gap-x-6 max-xl:gap-x-1 max-xl:flex-col gap-y-2 justify-center">
                 <a
                   className="border rounded-md text-xl max-xl:text-sm flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
-                  href="https://github.com/your-repo-link"
+                  href="https://github.com/priyanshu9899/Dyslexsify"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -25,7 +25,7 @@ function DyslexifyContent() {
                 </a>
                 <a
                   className="border rounded-md text-xl max-xl:text-sm flex items-center gap-x-2 p-2 hover:bg-white hover:text-black"
-                  href="https://your-live-link.com"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >
